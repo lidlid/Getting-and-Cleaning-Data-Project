@@ -10,16 +10,16 @@ The data being used in this project represents data collected from the accelerom
 
 # Files in the repository: 
 
-run_analysis.R: R script to transform raw accelerometer data collected from the Samsung Galaxy S to a tidy dataset
-README.md: this file
-CodeBook.md: a code book that describes the variables, data, and transformations performed to clean up the raw data
+* run_analysis.R: R script to transform raw accelerometer data collected from the Samsung Galaxy S to a tidy dataset
+* README.md: this file
+* CodeBook.md: a code book that describes the variables, data, and transformations performed to clean up the raw data
 
 # Creating the tidy data set:
-Clone this repository
-Download raw data at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-Unzip the raw data to a destination on the local machine
-Open R and set the working directory to the repository containing the project data
-Source the run_analisys.R script 
+1. Clone this repository
+2. Download raw data at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+3. Unzip the raw data to a destination on the local machine
+4. Open R and set the working directory to the repository containing the project data
+5. Source the run_analisys.R script 
 
 # Script operation
 The run_analisys.R script checks the availability, installs and loads the necessary R packages including data.table and reshape2. 
